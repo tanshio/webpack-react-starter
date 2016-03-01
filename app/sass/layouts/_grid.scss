@@ -1,0 +1,121 @@
+
+.l-container {
+  @include outer-container;
+}
+
+@for $i from 1 through 12 {
+  .l-grid-#{$i} {
+    @include span-columns($i);
+  }
+}
+
+@for $i from 1 through 12 {
+
+  @include media-pc {
+    .l-grid-lg-#{$i} {
+      @include span-columns($i);
+    }
+  }
+
+  @include media-tab {
+    .l-grid-md-#{$i} {
+      @include span-columns($i);
+    }
+  }
+
+  @include media-tab-o {
+    .l-grid-md-o-#{$i} {
+      @include span-columns($i);
+    }
+  }
+
+  @include media-smp {
+    .l-grid-sm-#{$i} {
+      @include span-columns($i);
+    }
+  }
+
+}
+
+
+@for $i from 1 through 12 {
+
+
+
+}
+
+
+/*doc
+---
+title: grid
+name: grid
+category: Layout
+---
+
+グリッドシステム
+
+
+```html_example
+<div class="l-container cf" style="margin-bottom: 20px">
+  <div class="l-grid-1" style="background-color:#ccc">1/12</div>
+</div>
+
+<div class="l-container cf" style="margin-bottom: 20px">
+  <div class="l-grid-2" style="background-color:#ccc">2/12</div>
+</div>
+
+<div class="l-container cf" style="margin-bottom: 20px">
+  <div class="l-grid-3 l-grid-md-o-6" style="background-color:#ccc">3/12</div>
+</div>
+
+<div class="l-container cf" style="margin-bottom: 20px">
+  <div class="l-grid-4 l-grid-md-6" style="background-color:#ccc">4/12</div>
+</div>
+
+<div class="l-container cf" style="margin-bottom: 20px">
+  <div class="l-grid-5" style="background-color:#ccc">5/12</div>
+</div>
+
+<div class="l-container cf" style="margin-bottom: 20px">
+  <div class="l-grid-6" style="background-color:#ccc">6/12</div>
+</div>
+
+<div class="l-container cf" style="margin-bottom: 20px">
+  <div class="l-grid-7" style="background-color:#ccc">7/12</div>
+</div>
+
+<div class="l-container cf" style="margin-bottom: 20px">
+  <div class="l-grid-8" style="background-color:#ccc">8/12</div>
+</div>
+
+<div class="l-container cf" style="margin-bottom: 20px">
+  <div class="l-grid-9" style="background-color:#ccc">9/12</div>
+</div>
+
+<div class="l-container cf" style="margin-bottom: 20px">
+  <div class="l-grid-10" style="background-color:#ccc">10/12</div>
+</div>
+
+<div class="l-container cf" style="margin-bottom: 20px">
+  <div class="l-grid-11" style="background-color:#ccc">11/12</div>
+</div>
+
+<div class="l-container cf" style="margin-bottom: 20px">
+  <div class="l-grid-12" style="background-color:#ccc">12/12</div>
+</div>
+
+```
+
+## Example
+
+```html_example
+
+<div class="l-container cf" style="margin-bottom: 20px">
+  <div class="l-grid-2" style="background-color:#ccc">2/12</div>
+  <div class="l-grid-4" style="background-color:#ccc">4/12</div>
+</div>
+
+
+```
+
+*/

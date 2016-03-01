@@ -1,0 +1,89 @@
+.m-form {
+	input {
+		font-size: 1rem;
+	}
+
+	input[type=text],
+	input[type=email],
+	textarea {
+		width: 100%;
+	}
+
+	input,
+	textarea {
+		padding: .25rem;
+	}
+	select {
+		background: #fff;
+		width: 100%;
+		border: 1px solid #ccc;
+	}
+
+	dt {
+		font-weight: bold;
+	}
+
+	dd {
+		padding:.25rem 0;
+		margin: 0 0 20px 0;
+		label {
+			display: inline-block;
+			margin-right: .5rem;
+			input {
+				margin-right: .25rem;
+			}
+		}
+	}
+}
+
+
+// Form
+//
+// .m-form - default table
+//
+// markup:
+// <form>
+//    <dl class="{$modifiers}">
+//    <dt>
+//      <label for="name">名前</label>
+//    </dt>
+//    <dd>
+//      <input id="name" type="text" placeholder="お名前を入力して下さい">
+//    </dd>
+//    <dt>
+//      <label for="email">メールアドレス</label>
+//    </dt>
+//    <dd>
+//      <input id="email" type="text" placeholder="メールアドレスを入力して下さい">
+//    </dd>
+//    <dt>性別</dt>
+//    <dd>
+//      <label><input name="sex" type="radio">男</label>
+//      <label><input name="sex" type="radio">女</label>
+//    </dd>
+//    <dt>好きな食べ物</dt>
+//    <dd>
+//      <label><input type="checkbox" value="apple">apple</label>
+//      <label><input type="checkbox" value="banana">banana</label>
+//    </dd>
+//    <dt>都道府県</dt>
+//    <dd>
+//      <select id="language" name="language">
+//       <option value="北海道">北海道</option>
+//       <option value="青森県">青森県</option>
+//       <option value="秋田県">秋田県</option>
+//     </select>
+//    </dd>
+//    <dt>ファイル添付</dt>
+//    <dd>
+//      <input type="file">
+//    </dd>
+//    <dt>textarea</dt>
+//    <dd>
+//      <textarea placeholder="input text"></textarea>
+//    </dd>
+//   </dl>
+//   <button>投稿する</button>
+// </form>
+//
+// Styleguide 3.3

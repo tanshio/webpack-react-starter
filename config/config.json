@@ -1,0 +1,32 @@
+{
+  "root": {
+    "dist": "dist"
+  },
+  "browserSync" : {
+    "server": {
+      "baseDir": "dist"
+    }
+  },
+  "js": {
+    "src": "app/js/",
+    "dist": "dist/js"
+  },
+  "jade": {
+    "src": "app/jade/",
+    "dist": "dist/"
+  },
+  "scss": {
+    "src": "app/sass/",
+    "dist": "dist/style/"
+  },
+  "stylus": {
+    "src": "app/stylus/",
+    "dist": "dist/style/"
+  },
+  "image": {
+    "src": "app/images/",
+    "dist": "dist/images/",
+    "sprite": "app/images/sprite/",
+    "spritecss": "app/sass/utilities/"
+  }
+}

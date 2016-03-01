@@ -1,0 +1,32 @@
+/******************************
+Grid Settings
+*******************************/
+
+@import "bourbon";
+@import "neat";
+
+$column: 90px;
+$gutter: 30px;
+$grid-columns: 12;
+$max-width: 1200px;
+
+$sm: 640px;
+$md: 970px;
+
+
+
+@import "./var/font";
+
+
+$primary-color: #1c3849;
+$secondary-color: #000000;
+$point-color: #CC0000;
+
+
+// Colors and typography
+//
+// This section describes base colors and typography
+//
+// Styleguide 2.0
+
+

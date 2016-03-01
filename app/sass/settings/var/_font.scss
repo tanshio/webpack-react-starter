@@ -1,0 +1,35 @@
+/******************************
+Font settings
+*******************************/
+
+$f-size: 16px;
+$f-gothic: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+$f-mincho: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+$f-monospace: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace;
+$f-maru: "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", "メイリオ", Meiryo, fantasy;
+
+
+
+/*doc
+---
+title: font-family
+name: font-family
+category: Settings - font
+---
+
+フォントの設定
+
+### ゴシック
+<p style='font-family:Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;'>$f-gothic でゴシック</p>
+
+### 明朝
+<p style='font-family:"Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif'>$f-mincho で明朝体</p>
+
+### 等幅
+<p style='font-family:"Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace'>$f-monospace で等幅</p>
+
+### 丸ゴ
+<p style='font-family:"ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", "メイリオ", Meiryo, fantasy'>$f-maru で丸ゴシック</p>
+
+
+*/

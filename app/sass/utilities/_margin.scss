@@ -1,0 +1,16 @@
+
+@for $i from 1 through 20 {
+	$value: $i * 5;
+	.u-mt#{$value} {
+		margin-top: $value * 1px;
+	}
+}
+
+@for $i from 1 through 20 {
+	$value: $i * 5;
+	.u-mb#{$value} {
+		margin-bottom: $value * 1px;
+	}
+}
+
+

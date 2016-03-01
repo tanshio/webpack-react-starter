@@ -1,0 +1,29 @@
+//- base.jade
+doctype html
+block vars
+  - var custom = "variable"
+  if path === 'index'
+    - path = 'home'
+
+html(lang="ja", prefix="og:http://ogp.me/ns#")
+    block title
+      //- - var title = "aaa";
+      title #{aaa}
+
+    block meta
+      include ../meta/_default
+
+  body(class='#{path}')
+    block header
+      header
+        nav
+          ul
+            li top
+
+
+    block content
+
+    block footer
+      footer
+        p footer
+      script(src="js/main.js")

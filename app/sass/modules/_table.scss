@@ -1,0 +1,32 @@
+.m-table {
+	border-collapse: collpase;
+	th,td {
+		padding: 0.5rem;
+		border: 1px solid $primary-color;
+	}
+}
+
+// Table
+//
+// .m-table - default table
+//
+// markup:
+// <table class="{$modifiers}">
+//   <tr>
+//     <th>name</th>
+//     <th>birthday</th>
+//     <th>job</th>
+//   </tr>
+//   <tr>
+//     <td>nobita</td>
+//     <td>19xx/xx/xx</td>
+//     <td>student</td>
+//   </tr>
+//   <tr>
+//     <td>doraemon</td>
+//     <td>21xx/xx/xx</td>
+//     <td>machine</td>
+//   </tr>
+// </table>
+//
+// Styleguide 3.2

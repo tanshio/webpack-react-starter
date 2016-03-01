@@ -1,0 +1,69 @@
+
+
+.m-heading--circle {
+	position: relative;
+	padding-left: 2rem;
+	font-size: 2rem;
+
+	&:before {
+		content: "";
+		position: absolute;
+		display: block;
+		left:-.5rem;
+		top:50%;
+		margin-top: -1rem;
+		width: 2rem;
+		height: 2rem;
+		background: $primary-color;
+		border-radius: 50%;
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		display: block;
+		left:0;
+		top:50%;
+		margin-top: -.5rem;
+		width: 1rem;
+		height: 1rem;
+		background: #fff;
+		border-radius: 50%;
+	}
+}
+
+.m-heading--left {
+	padding-left: 1rem;
+	border-left: 6px solid $primary-color;
+}
+
+
+.m-heading--double {
+	padding-left: 1rem;
+	border-left: 6px double $primary-color;
+}
+
+.m-heading--bottom {
+	border-bottom: 1px solid $primary-color;
+}
+
+.m-heading--bottom-double {
+	border-bottom: 3px double $primary-color;
+}
+
+.m-heading--bottom-dotted {
+	border-bottom: 1px dotted $primary-color;
+}
+
+// Heading
+//
+// .m-heading--circle - circle
+// .m-heading--left - left-border
+// .m-heading--double - double
+// .m-heading--bottom - bottom-border
+// .m-heading--bottom-double - bottom-border-double
+// .m-heading--bottom-dotted - bottom-border-dotted
+//
+// markup:
+// <h1 class="{$modifiers}">あああ</div>
+//
+// Styleguide 3.1

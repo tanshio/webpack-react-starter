@@ -1,0 +1,95 @@
+.u-align-center {
+	text-align: center;
+}
+
+.u-align-right {
+	text-align: right;
+}
+
+.u-align-left {
+	text-align: left;
+}
+
+// Text-align
+//
+// .u-align-center - center
+// .u-align-right - right
+// .u-align-left - left
+//
+// markup:
+// <div class="{$modifiers}">あああ</div>
+//
+// Styleguide 4.1
+
+
+
+
+.u-text-bold {
+	font-weight: bold;
+}
+
+.u-text-normal {
+	font-weight: normal;
+}
+
+.u-text-italic {
+	font-style: italic;
+}
+
+.u-text-underline {
+	text-decoration: underline;
+}
+
+.u-text-point {
+	color: $point-color;
+	font-weight: bold;
+}
+
+// Text-style
+//
+// .u-text-bold - bold
+// .u-text-normal - normal
+// .u-text-italic - italic
+// .u-text-underline - underline
+// .u-text-point - point
+//
+// markup:
+// <div class="{$modifiers}">text decorations</div>
+//
+// sg-wrapper:
+// <div class="wrapper"><sg-wrapper-content/></div>
+//
+// Styleguide 4.2
+
+
+// Angular Directives
+//
+// Example of lazy loaded AngularJS directive from external project
+//
+// Styleguide 8.0
+
+
+
+.sg.demo-click-area {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  padding: 0.2em;
+  border: 1px solid red;
+  display: initial;
+  cursor: pointer;
+}
+
+
+// Test directive
+//
+// markup:
+// <div sg-test-directive>If you see this something is wrong</div>
+//
+// sg-angular-directive:
+// name: sgAppTest
+// template: demo/testDirective.html
+// file: demo/testDirective.js
+//
+// Styleguide 8.1
